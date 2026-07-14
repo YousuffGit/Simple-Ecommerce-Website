@@ -1,0 +1,363 @@
+html {
+  scroll-behavior: smooth;
+}
+p, h1, h2, h3, h4 {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+}
+body {
+    background-color: #F1FFFA;
+    height: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#header {
+    display: flex;
+    justify-content: center;
+    position:sticky;
+    top: 0;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    z-index: 1000;
+}
+#header a {
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    align-items: center;
+    color: #8884a5;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+}
+#header a:hover {
+    color: #D81E5B;
+}
+.home {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    padding: 0;
+    border: none;
+}
+.home img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+#hero-image {
+    height: 800px;
+    background-image: url(hero-image.webp);
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#hero-text {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #89A1EF;
+    text-shadow: 2px 2px black;
+}
+#subhead {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px black;
+}
+#pcbtn {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 60px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 10px; 
+    background-color: #F1FFFA;
+    border: 2px solid #8884A5;
+    padding: 15px 20px;
+    color: #8884A5;
+}
+#gamesbtn {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 60px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #00000000;
+   
+    border: 2px solid #89A1EF;
+    padding: 15px 20px;
+    color: #89A1EF;
+}
+#pcbtn:hover {
+    color: #D81E5B;
+    border: 2px solid #D81E5B;
+    background-color: #c999a9;
+
+}
+#gamesbtn:hover {
+    color: #D81E5B;
+    border: 2px solid #D81E5B;
+    background-color: #c999a9;
+}
+#intro {
+    font-size: 20px;
+    background-color: white;
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 100px;
+    border-bottom: 4px solid #D81E5B;
+    border-top: 4px solid #D81E5B;
+}
+#features {
+    padding-top: 100px;
+    text-align: center;
+}
+#efeatures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 40px;
+    padding: 100px 20px;
+    padding-bottom: 0px;
+    font-size: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+#efeatures > div {
+    flex: 1 1 250px;
+    max-width: 300px;
+    box-sizing: border-box;
+}
+#efeatures img {
+    display: block;
+    margin: 0 auto 10px;
+    width: 100px;
+    height: auto;
+}
+.performance {
+    flex: 1 1 100px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    display: block;
+    max-width: 100px;
+    box-sizing: border-box;
+}
+.custom {
+    flex: 1 1 100px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    display: block;
+    max-width: 100px;
+    box-sizing: border-box;
+}
+.game {
+    flex: 1 1 100px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    display: block;
+    max-width: 100px;
+    box-sizing: border-box;
+}
+.support {
+    flex: 1 1 100px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    display: block;
+    max-width: 100px;
+    box-sizing: border-box;
+}
+#cat {
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    padding-top: 100px;
+}
+
+.dark-mode {
+    background-color: rgb(27, 27, 27);
+    color: white;
+}
+body.dark-mode #header {
+    display: flex;
+    justify-content: center;
+    position:sticky;
+    top: 0;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    z-index: 1000;
+}
+body.dark-mode #intro {
+    font-size: 20px;
+    background-color: rgb(27, 27, 27);
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 100px;
+    border-bottom: 4px solid #D81E5B;
+    border-top: 4px solid #D81E5B;
+}
+body.dark-mode .products {
+    background: rgb(51, 51, 51);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+body.dark-mode .cart-container {
+    background: rgb(51, 51, 51);
+}
+#dmbtn {
+    padding-left: 20px;
+    width: 60px;
+    height: 90px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    object-fit: cover;
+}
+#dmbtn img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+.catcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#catbtn {
+    background: transparent;
+    margin: 0;
+    padding: 10px;
+    font-family: system-ui, sans-serif;
+    font-size: 20px;
+    color: #8884a5;
+    text-decoration: none;
+    border: 2px solid #8884A5;
+    border-radius: 10px;
+    text-align: center;
+}
+#header a.active {
+    color: #D81E5B;
+}
+#pctitle {
+    font-size: 36px;
+    color: rgb(216, 30, 91);
+    text-align: center;
+}
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 60px;
+    padding: 30px;
+    max-width: 1400px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.products {
+    background: #fff;
+    border: 2px solid #8884a5;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.products:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  border: 2px solid #D81E5B;
+}
+.products img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.add-to-cart {
+    margin-top: 10px;
+    background-color: #001B2E;
+    color: #fff;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.add-to-cart:hover {
+    background-color: #D81E5B;
+}
+.cart-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+  background-color: white;
+  border: 2px solid #8884A5;
+  border-radius: 10px;
+}
+.cart-item {
+  padding: 10px;
+  text-align: left;
+}
+.cart-item h3 {
+  margin: 0;
+}
+.cart-item button {
+  background-color: #D81E5B;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.cart-item button:hover {
+  background-color: #b71c49;
+}
+.contact-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: white;
+  border: 2px solid #8884A5;
+  border-radius: 10px;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+}
+body.dark-mode .contact-container {
+  background-color: #1c1c1c;
+  color: white;
+}
+.fade-in {
+  opacity: 0;
+  animation: fadeInAnimation 0.5s ease-in forwards;
+}
+
+@keyframes fadeInAnimation {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+</head>
+<body>
+    <div id="header">
+        <a class="home" href="index.html" onmouseover="homeHoverOn()" onmouseout="homeHoverOff()">
+            <img id="homeIcon" src="logo bg removed.png" alt="Home Logo" />
+        </a>
+        <a href="Products.html">Products</a>
+        <a href="Games.html">Games</a>
+        <a href="Cart.html" class="active">Cart</a>
+        <a href="Contact.html">Contact</a>
+        <button id="dmbtn" onmouseover="hoverOn()" onmouseout="hoverOff()" onclick="darkmode()">
+            <img id="lightIcon" src="purple_light-removebg-preview.png">
+        </button>
+    </div>
+    <h1 class="fade-in" id="pctitle">Your Shopping Cart</h1>
+    <div id="cart-container" class="cart-container"></div>
+    <script src="main.js"></script>
+</body>
+</html>

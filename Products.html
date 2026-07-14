@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming PCs</title>
+</head>
+<body>
+    <div id="header">
+        <script src="main.js"></script>
+        <a class="home" href="index.html" onmouseover="homeHoverOn()" onmouseout="homeHoverOff()">
+            <img id="homeIcon" src="logo bg removed.png" alt="Home Logo" />
+        </a>
+        <a href="Products.html" class="active">Products</a>
+        <a href="Games.html">Games</a>
+        <a href="Cart.html">Cart</a>
+        <a href="Contact.html">Contact</a>
+        <button id="dmbtn" onmouseover="hoverOn()" onmouseout="hoverOff()" onclick="darkmode()">
+            <img id="lightIcon" src="purple_light-removebg-preview.png">
+        </button>
+    </div>
+    <h1 class="fade-in" id="pctitle">Our Gaming Ready PCs</h1>
+    <div class="products-grid">
+        <div class="products">
+            <img src="black hero pc 1.webp">
+            <h3>Hero PC Black Edition</h3>
+            <p>Ryzen 5 9600x, RTX 5060, 16GB RAM, 1TB SSD</p>
+            <p>R19,999</p>
+            <button class="add-to-cart" onclick="addToCart('Hero PC Black Edition')">Add to Cart</button>
+        </div>
+        <div class="products">
+            <img src="white hero pc 2.webp">
+            <h3>Hero PC White Edition</h3>
+            <p>Ryzen 5 9600x, RTX 5060, 16GB RAM, 1TB SSD</p>
+            <p>R21,999</p>
+            <button class="add-to-cart" onclick="addToCart('Hero PC White Edition')">Add to Cart</button>
+        </div>
+        <div class="products">
+            <img src="black obsidian pc 3.webp">
+            <h3>Obsidian PC Black Edition</h3>
+            <p>Ryzen 7 9700x, RTX 5070, 32GB RAM, 1TB SSD</p>
+            <p>R25,999</p>
+            <button class="add-to-cart" onclick="addToCart('Obsidian PC Black Edition')">Add to Cart</button>
+        </div>
+        <div class="products">
+            <img src="white satin pc 4.webp">
+            <h3>Satin PC White Edition</h3>
+            <p>Ryzen 5 9700x, RTX 5070, 32GB RAM, 1TB SSD</p>
+            <p>R27,999</p>
+            <button class="add-to-cart" onclick="addToCart('Satin PC White Edition')">Add to Cart</button>
+        </div>
+        <div class="products">
+            <img src="black walnut pc 5.webp">
+            <h3>Walnut PC Black Edition</h3>
+            <p>Ryzen 7 9800X3D, RTX 5080, 32GB RAM, 1TB SSD</p>
+            <p>R31,999</p>
+            <button class="add-to-cart" onclick="addToCart('Walnut PC Black Edition')">Add to Cart</button>
+        </div>
+        <div class="products">
+            <img src="white bamboo pc 6.webp">
+            <h3>Bamboo PC White Edition</h3>
+            <p>Ryzen 7 9800X3D, RTX 5080, 32GB RAM, 1TB SSD</p>
+            <p>R33,999</p>
+            <button class="add-to-cart" onclick="addToCart('Bamboo PC White Edition')">Add to Cart</button>
+        </div>
+    </div>
+</body>
+</html>
