@@ -1,6 +1,8 @@
-# Simple E-Commerce Storefront
+# 🛒 Simple E-Commerce Storefront
 
 A lightweight, responsive frontend e-commerce storefront featuring a dynamic shopping cart and a sleek dark mode toggle.
+
+**[Click Here to View the Live Demo!](https://yousuffgit.github.io/Simple-Ecommerce-Website/)**
 
 ---
 
